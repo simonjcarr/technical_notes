@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "34fc488c17f89c1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "13b81122c689d447",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e34eba6158a5e0a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/OLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "044c313cfa8bc52e",
+    "type": "split",
+    "children": [
+      {
+        "id": "daab21e074fdfc5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1ea0d67ef66d25f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c77febe7d0f405d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "22d902f121b950e0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "df945230514fa82e",
+    "type": "split",
+    "children": [
+      {
+        "id": "826361dfb1568191",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d08cc7ee12ef1ea6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Kubernetes/OLM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "96068ad8aebafb7f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kubernetes/OLM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f951e964e1088135",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "79c857dd18419107",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kubernetes/OLM.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e34eba6158a5e0a9",
+  "lastOpenFiles": [
+    "Kubernetes/OLM.md",
+    "Linux/User Management.md",
+    "Untitled.md",
+    "kubernetes.md",
+    "Linux",
+    "Kubernetes"
+  ]
+}
