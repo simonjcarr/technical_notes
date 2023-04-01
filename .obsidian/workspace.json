@@ -49,9 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
+                "file": "Kubernetes/ArgoCD/Install ArgoCD.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -160,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
+                "file": "Kubernetes/ArgoCD/Install ArgoCD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
+                "file": "Kubernetes/ArgoCD/Install ArgoCD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md"
+                "file": "Kubernetes/ArgoCD/Install ArgoCD.md"
               }
             }
           }
@@ -223,9 +222,9 @@
   },
   "active": "d4af37b201196340",
   "lastOpenFiles": [
+    "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
     "Kubernetes/Postgres/Postgres Operator Installation.md",
     "Kubernetes/ArgoCD/Install ArgoCD.md",
-    "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
     "Kubernetes/services/Fully qualified service url.md",
     "Kubernetes/services",
     "Kubernetes/ArgoCD",
