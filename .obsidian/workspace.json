@@ -40,9 +40,21 @@
               }
             },
             "group": "1d72903a40ff510c"
+          },
+          {
+            "id": "5b0243a32d2f9156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infrastructure/GitLab/Run GitLab in Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "e18c63af67fedc0b",
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
+                "file": "Infrastructure/GitLab/Run GitLab in Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
+                "file": "Infrastructure/GitLab/Run GitLab in Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md"
+                "file": "Infrastructure/GitLab/Run GitLab in Docker.md"
               }
             }
           }
@@ -243,8 +255,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b65e86771e74f15b",
+  "active": "5b0243a32d2f9156",
   "lastOpenFiles": [
+    "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
+    "Infrastructure/GitLab/Run GitLab in Docker.md",
+    "Infrastructure/GitLab",
+    "Infrastructure",
     "Kubernetes/stacks/Keycloak Stack.md",
     "Kubernetes/keycloak/Keylcoak Operator Installation.md",
     "Kubernetes/Postgres/Postgres Operator Installation.md",
@@ -253,7 +269,6 @@
     "Kubernetes/Secrets/Create a Generic Secret.md",
     "Kubernetes/Secrets",
     "Kubernetes/OLM/OLM Installation.md",
-    "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
     "Kubernetes/stacks",
     "Kubernetes/OLM",
     "Kubernetes/ArgoCD/Install ArgoCD.md",
@@ -266,8 +281,6 @@
     "Kubernetes/Helm",
     "Kubernetes/Kubernetes Installation/K3D.md",
     "Kubernetes/Kubernetes Installation/Kind",
-    "Kubernetes/Kubernetes Installation/K3S",
-    "Kubernetes/Kubernetes Installation/K3D",
     "Kubernetes/Untitled.md",
     "README.md",
     "Linux/User Management.md",
