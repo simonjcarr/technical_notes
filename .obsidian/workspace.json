@@ -4,71 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ab7786505e7a740f",
+        "id": "7a816c56e3a360da",
         "type": "tabs",
+        "dimension": 61.172901921132464,
         "children": [
           {
-            "id": "687f272c87a2cf55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Rancher/Rancher Installation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19ca2cefca069e7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Rancher/Rancher Installation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2898ca5df167382d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4af37b201196340",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/ArgoCD/Install ArgoCD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3bb74954f50c60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/ArgoCD/Install ArgoCD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee9b9132b94ff878",
+            "id": "813747bcfe17d6db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,20 +21,102 @@
             }
           },
           {
-            "id": "25eef480295fe112",
+            "id": "206ea1ca0632011d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b65e86771e74f15b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Postgres/Postgres Operator Installation.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
+                "file": "Kubernetes/stacks/Keycloak Stack.md",
+                "mode": "source",
+                "source": false
               }
-            }
+            },
+            "group": "1d72903a40ff510c"
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "e18c63af67fedc0b",
+        "type": "split",
+        "dimension": 38.82709807886754,
+        "children": [
+          {
+            "id": "9e0240bc2aea9c59",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4e0a0bda06d71a37",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Kubernetes/stacks/Keycloak Stack.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "1d72903a40ff510c"
+              }
+            ]
+          },
+          {
+            "id": "c043f6b7d91684af",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "856c128c945714f8",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Kubernetes/stacks/Keycloak Stack.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                },
+                "group": "1d72903a40ff510c"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -159,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/ArgoCD/Install ArgoCD.md",
+                "file": "Kubernetes/stacks/Keycloak Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/ArgoCD/Install ArgoCD.md",
+                "file": "Kubernetes/stacks/Keycloak Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/ArgoCD/Install ArgoCD.md"
+                "file": "Kubernetes/stacks/Keycloak Stack.md"
               }
             }
           }
@@ -220,28 +243,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4af37b201196340",
+  "active": "b65e86771e74f15b",
   "lastOpenFiles": [
-    "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
+    "Kubernetes/keycloak/Keylcoak Operator Installation.md",
     "Kubernetes/Postgres/Postgres Operator Installation.md",
+    "Kubernetes/Secrets/Get a secret using kubectl.md",
+    "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
+    "Kubernetes/Secrets/Create a Generic Secret.md",
+    "Kubernetes/Secrets",
+    "Kubernetes/OLM/OLM Installation.md",
+    "Kubernetes/stacks/Keycloak Stack.md",
+    "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
+    "Kubernetes/stacks",
+    "Kubernetes/OLM",
     "Kubernetes/ArgoCD/Install ArgoCD.md",
     "Kubernetes/services/Fully qualified service url.md",
     "Kubernetes/services",
     "Kubernetes/ArgoCD",
     "Kubernetes/Rancher/Rancher Installation.md",
     "Kubernetes/cloudflared ingress",
-    "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
     "Kubernetes/Helm/Install Helm.md",
     "Kubernetes/Helm",
-    "Kubernetes/keycloak/Keylcoak Operator Installation.md",
-    "Kubernetes/OLM Installation.md",
     "Kubernetes/Kubernetes Installation/K3D.md",
     "Kubernetes/Kubernetes Installation/Kind",
     "Kubernetes/Kubernetes Installation/K3S",
     "Kubernetes/Kubernetes Installation/K3D",
-    "Kubernetes/Kubernetes Installation",
-    "Kubernetes/Rancher",
-    "Kubernetes/Postgres",
     "Kubernetes/Untitled.md",
     "README.md",
     "Linux/User Management.md",

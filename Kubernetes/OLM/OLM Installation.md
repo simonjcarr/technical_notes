@@ -1,10 +1,10 @@
 
-**OLM** stands Operator Lifecycle Manager. 
+**OLM** stands Operator Life cycle Manager. 
 OLM provides many templates for installing different applications. It can make complex installations easier.
 
 ## Install from GitHub release[](https://sdk.operatorframework.io/docs/installation/#install-from-github-release)
 
-This process will install an installer on your local machine. Once installed, and if you have kubectl installed, you can run the binary and it will sertup the OLM on your kubernets cluster.
+This process will install an installer on your local machine. Once installed, and if you have kubectl installed, you can run the binary and it will setup the OLM on your kubernetes cluster.
 
 #### Prerequisites[](https://sdk.operatorframework.io/docs/installation/#prerequisites)
 
