@@ -6,7 +6,7 @@
       {
         "id": "7a816c56e3a360da",
         "type": "tabs",
-        "dimension": 61.172901921132464,
+        "dimension": 58.84732052578362,
         "children": [
           {
             "id": "813747bcfe17d6db",
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/stacks/Keycloak Stack.md",
+                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +47,7 @@
       {
         "id": "e18c63af67fedc0b",
         "type": "split",
-        "dimension": 38.82709807886754,
+        "dimension": 41.15267947421638,
         "children": [
           {
             "id": "9e0240bc2aea9c59",
@@ -59,7 +59,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Kubernetes/stacks/Keycloak Stack.md",
+                    "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -101,7 +101,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Kubernetes/stacks/Keycloak Stack.md",
+                    "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/stacks/Keycloak Stack.md",
+                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/stacks/Keycloak Stack.md",
+                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/stacks/Keycloak Stack.md"
+                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md"
               }
             }
           }
@@ -245,6 +245,7 @@
   },
   "active": "b65e86771e74f15b",
   "lastOpenFiles": [
+    "Kubernetes/stacks/Keycloak Stack.md",
     "Kubernetes/keycloak/Keylcoak Operator Installation.md",
     "Kubernetes/Postgres/Postgres Operator Installation.md",
     "Kubernetes/Secrets/Get a secret using kubectl.md",
@@ -252,7 +253,6 @@
     "Kubernetes/Secrets/Create a Generic Secret.md",
     "Kubernetes/Secrets",
     "Kubernetes/OLM/OLM Installation.md",
-    "Kubernetes/stacks/Keycloak Stack.md",
     "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
     "Kubernetes/stacks",
     "Kubernetes/OLM",
