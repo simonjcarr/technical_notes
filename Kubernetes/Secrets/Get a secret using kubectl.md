@@ -1,10 +1,14 @@
-### To see the properties of a secret
-
+### To get the list of secrets in a namespace
 ```bash
-kubectl describe secret -n yournamespace secretname
+kubectl get secret -n <yournamespace>
 ```
 
-Example response
+### To see the properties of a secret
+```bash
+kubectl describe secret -n <yournamespace> secretname
+```
+
+Example output
 
 ```console
 Name:         postgres.acid-minimal-cluster.credentials.postgresql.acid.zalan.do
@@ -24,7 +28,7 @@ username:  8 bytes
 
 ### Decode a secret
 ```bash
-kubectl get secret -n yournamespace secretname -o jsonpath='{.data.password}' | base64 --decode
+kubectl get secret -n <yournamespace> secretname -o jsonpath='{.data.password}' | base64 --decode
 ```
 
 Example output

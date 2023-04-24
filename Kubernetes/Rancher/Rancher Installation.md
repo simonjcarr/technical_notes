@@ -59,3 +59,12 @@ Wait for Rancher to be rolled out
 ```bash
 kubectl -n cattle-system rollout status deploy/rancher
 ```
+
+### Get the Initial Admin Password
+```bash
+kubectl get secret -n cattle-system bootstrap-secret -o jsonpath='{.data.bootstrapPassword}' | base64 --decode
+```
+
+
+### Ingress
+The rancher install above will create a default ingress, but if you want to cloudflared following these instructions [[Install cloudflared in a cluster]]

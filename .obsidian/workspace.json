@@ -4,131 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7a816c56e3a360da",
+        "id": "bef6f28da7a5e8f4",
         "type": "tabs",
-        "dimension": 58.84732052578362,
         "children": [
           {
-            "id": "813747bcfe17d6db",
+            "id": "80fcfb99fe774453",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Postgres/Postgres Operator Installation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "206ea1ca0632011d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b65e86771e74f15b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "1d72903a40ff510c"
-          },
-          {
-            "id": "5b0243a32d2f9156",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Infrastructure/GitLab/Run GitLab in Docker.md",
+                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "e18c63af67fedc0b",
-        "type": "split",
-        "dimension": 41.15267947421638,
-        "children": [
-          {
-            "id": "9e0240bc2aea9c59",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4e0a0bda06d71a37",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": true
-                    }
-                  }
-                },
-                "group": "1d72903a40ff510c"
-              }
-            ]
-          },
-          {
-            "id": "c043f6b7d91684af",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "856c128c945714f8",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                },
-                "group": "1d72903a40ff510c"
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infrastructure/GitLab/Run GitLab in Docker.md",
+                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infrastructure/GitLab/Run GitLab in Docker.md",
+                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infrastructure/GitLab/Run GitLab in Docker.md"
+                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md"
               }
             }
           }
@@ -255,36 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b0243a32d2f9156",
+  "active": "80fcfb99fe774453",
   "lastOpenFiles": [
-    "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
-    "Infrastructure/GitLab/Run GitLab in Docker.md",
-    "Infrastructure/GitLab",
-    "Infrastructure",
-    "Kubernetes/stacks/Keycloak Stack.md",
-    "Kubernetes/keycloak/Keylcoak Operator Installation.md",
     "Kubernetes/Postgres/Postgres Operator Installation.md",
-    "Kubernetes/Secrets/Get a secret using kubectl.md",
-    "Kubernetes/cloudflared ingress/Install cloudflared in a cluster.md",
-    "Kubernetes/Secrets/Create a Generic Secret.md",
-    "Kubernetes/Secrets",
-    "Kubernetes/OLM/OLM Installation.md",
-    "Kubernetes/stacks",
-    "Kubernetes/OLM",
-    "Kubernetes/ArgoCD/Install ArgoCD.md",
-    "Kubernetes/services/Fully qualified service url.md",
-    "Kubernetes/services",
-    "Kubernetes/ArgoCD",
-    "Kubernetes/Rancher/Rancher Installation.md",
-    "Kubernetes/cloudflared ingress",
-    "Kubernetes/Helm/Install Helm.md",
-    "Kubernetes/Helm",
-    "Kubernetes/Kubernetes Installation/K3D.md",
-    "Kubernetes/Kubernetes Installation/Kind",
-    "Kubernetes/Untitled.md",
-    "README.md",
+    "Kubernetes/keycloak/Deploy Keycloak Procedure.md",
+    "Kubernetes/keycloak/Keylcoak Operator Installation.md",
+    "Server Applications/ELK Stack/Elasticsearch/Install elasticsearch on Ubuntu 22.04.md",
     "Linux/User Management.md",
-    "Untitled.md",
-    "kubernetes.md"
+    "Server Applications/ELK Stack/Elasticsearch/Running Elasticsearch in an LXC container.md",
+    "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
+    "Server Applications/ELK Stack/Filebeat/Install Filebeat.md",
+    "Server Applications/ELK Stack/Kibana/Install Kibana.md",
+    "Server Applications/ELK Stack/Filebeat",
+    "Server Applications/ELK Stack/Logstash/Install Logstash.md",
+    "Server Applications/ELK Stack/Kibana",
+    "Server Applications/ELK Stack/Logstash",
+    "Server Applications/ELK Stack/ELK Stack.md",
+    "Server Applications/ELK Stack",
+    "Server Applications",
+    "Server Applications/ELK Stack/Elasticsearch",
+    "Kubernetes/Kubernetes.md",
+    "Vagrant/Vagrantfile.md",
+    "Vagrant/Install Vagrant.md",
+    "Kubernetes/Helm/Install Helm.md",
+    "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
+    "Kubernetes/Secrets/Get a secret using kubectl.md",
+    "Kubernetes/ArgoCD/Install ArgoCD.md",
+    "Kubernetes/ArgoCD/Create new ArogCD App.md",
+    "Kubernetes/Rancher/Rancher Installation.md",
+    "Kubernetes/namespaces/Terminating namespace.md",
+    "Kubernetes/namespaces",
+    "Linux/SWAP.md",
+    "LXC",
+    "Kubernetes/OLM/OLM Installation.md",
+    "Virtualbox/Install Virtualbox on linux.md",
+    "Virtualbox",
+    "Vagrant",
+    "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
+    "Kubernetes/services/Fully qualified service url.md"
   ]
 }

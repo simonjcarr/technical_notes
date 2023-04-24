@@ -15,6 +15,7 @@ cloudflared tunnel login
 cloudflared tunnel create example-tunnel
 ```
 
+Expected output
 ```console
 Tunnel credentials written to /Users/cf000197/.cloudflared/ef824aef-7557-4b41-a398-4684585177ad.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.
 

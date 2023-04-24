@@ -34,7 +34,7 @@ openssl req -subj '/CN=test.keycloak.org/O=Test Keycloak./C=US' -newkey rsa:2048
 
 ### Deploy the certificate
 ```bash
-kubectl create secret tls example-tls-secret --cert certificate.pem --key key.pem -n yournamespace
+kubectl create secret tls keycloak-tls-secret --cert certificate.pem --key key.pem -n yournamespace
 ```
 
 #### Create a Database Credentials Secret.
@@ -92,5 +92,7 @@ kubectl apply -f name-of-your-file.yaml -n yournamespace
 ```
 
 ### Get the Initial admin secret
+> If you have set the default `KEYCLOAK_ADMIN` and `KEYCLOAK_ADMIN_PASSWORD` in the  Keycloak instance above [[#Create the Keycloak instance]] You don't won't need to get the password from the secret.
+
 The Keycloak operator will create a secret in the same namespace as the Keycloak instance.
 Fetch and decode the secret using [[Get a secret using kubectl]]

@@ -77,3 +77,11 @@ Get the initial root password with the following command
 ```bash
 docker exec -it <container id> grep 'Password:' /etc/gitlab/initial_root_password
 ```
+
+## Upgrade GitLab
+
+
+```bash
+docker compose pull
+docker compose up -d
+```
