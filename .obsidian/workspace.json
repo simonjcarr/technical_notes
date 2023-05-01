@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md",
+                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on Ubuntu 22.04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff3549d44268ced2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Networking/Zerotier/Reset Zerotier member id.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6c036276e900754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Networking/sftp/SFTP with LDAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef8aa08c122ea6b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md",
+                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md",
+                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/keycloak/Keylcoak Operator Installation.md"
+                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md"
               }
             }
           }
@@ -146,16 +183,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80fcfb99fe774453",
+  "active": "ef8aa08c122ea6b7",
   "lastOpenFiles": [
+    "Linux/Networking/Domain Controller/SAMBA Domain Controller.md",
+    "Linux/Networking/Domain Controller",
+    "Linux/Networking/sftp/SFTP with LDAP.md",
+    "Linux/Networking/Zerotier/Reset Zerotier member id.md",
+    "Linux/Networking/sftp",
+    "Linux/Networking/Zerotier",
+    "Server Applications/ELK Stack/Filebeat/Install Filebeat on Ubuntu 22.04.md",
+    "Linux/Networking",
+    "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
+    "Server Applications/ELK Stack/Elasticsearch/Running Elasticsearch in an LXC container.md",
+    "Server Applications/ELK Stack/Elasticsearch/Install elasticsearch on Ubuntu 22.04.md",
+    "Kubernetes/keycloak/Keylcoak Operator Installation.md",
     "Kubernetes/Postgres/Postgres Operator Installation.md",
     "Kubernetes/keycloak/Deploy Keycloak Procedure.md",
-    "Kubernetes/keycloak/Keylcoak Operator Installation.md",
-    "Server Applications/ELK Stack/Elasticsearch/Install elasticsearch on Ubuntu 22.04.md",
     "Linux/User Management.md",
-    "Server Applications/ELK Stack/Elasticsearch/Running Elasticsearch in an LXC container.md",
-    "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
-    "Server Applications/ELK Stack/Filebeat/Install Filebeat.md",
     "Server Applications/ELK Stack/Kibana/Install Kibana.md",
     "Server Applications/ELK Stack/Filebeat",
     "Server Applications/ELK Stack/Logstash/Install Logstash.md",
@@ -175,14 +219,6 @@
     "Kubernetes/ArgoCD/Create new ArogCD App.md",
     "Kubernetes/Rancher/Rancher Installation.md",
     "Kubernetes/namespaces/Terminating namespace.md",
-    "Kubernetes/namespaces",
-    "Linux/SWAP.md",
-    "LXC",
-    "Kubernetes/OLM/OLM Installation.md",
-    "Virtualbox/Install Virtualbox on linux.md",
-    "Virtualbox",
-    "Vagrant",
-    "Kubernetes/Kubernetes Installation/Kind/Install Kind.md",
-    "Kubernetes/services/Fully qualified service url.md"
+    "Linux/SWAP.md"
   ]
 }
