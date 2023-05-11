@@ -49,14 +49,60 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
+                "file": "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "64bb956d1d0b89ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server Applications/AWX/Install AWX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0f3bca12ef79121",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23091ad0caa2572f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Networking/RedHat/RedHat set Static IP Adress.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1c8eff1870b746a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -101,6 +147,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "14ed043a0b1a377e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -122,7 +176,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +192,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +213,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,8 +233,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef8aa08c122ea6b7",
+  "active": "b1c8eff1870b746a",
   "lastOpenFiles": [
+    "Pasted image 20230506081020.png",
+    "Linux/Networking/RedHat/RedHat set Static IP Adress.md",
+    "Home Lab/GitLab/GitLab Access URLs.md",
+    "Home Lab/GitLab",
+    "Home Lab",
+    "Linux/Networking/RedHat.md",
+    "Linux/Networking/RedHat",
+    "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
+    "Linux/SWAP.md",
+    "Kubernetes/kubectl/Install Kubectl.md",
+    "Server Applications/AWX/Install AWX.md",
+    "Kubernetes/kubectl/Kubectl Commands.md",
+    "Server Applications/AWX",
+    "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
     "Linux/Networking/Domain Controller/SAMBA Domain Controller.md",
     "Linux/Networking/Domain Controller",
     "Linux/Networking/sftp/SFTP with LDAP.md",
@@ -193,7 +257,6 @@
     "Linux/Networking/Zerotier",
     "Server Applications/ELK Stack/Filebeat/Install Filebeat on Ubuntu 22.04.md",
     "Linux/Networking",
-    "Server Applications/ELK Stack/Filebeat/Install Filebeat on nginx server.md",
     "Server Applications/ELK Stack/Elasticsearch/Running Elasticsearch in an LXC container.md",
     "Server Applications/ELK Stack/Elasticsearch/Install elasticsearch on Ubuntu 22.04.md",
     "Kubernetes/keycloak/Keylcoak Operator Installation.md",
@@ -204,21 +267,9 @@
     "Server Applications/ELK Stack/Filebeat",
     "Server Applications/ELK Stack/Logstash/Install Logstash.md",
     "Server Applications/ELK Stack/Kibana",
-    "Server Applications/ELK Stack/Logstash",
     "Server Applications/ELK Stack/ELK Stack.md",
-    "Server Applications/ELK Stack",
-    "Server Applications",
-    "Server Applications/ELK Stack/Elasticsearch",
     "Kubernetes/Kubernetes.md",
     "Vagrant/Vagrantfile.md",
-    "Vagrant/Install Vagrant.md",
-    "Kubernetes/Helm/Install Helm.md",
-    "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
-    "Kubernetes/Secrets/Get a secret using kubectl.md",
-    "Kubernetes/ArgoCD/Install ArgoCD.md",
-    "Kubernetes/ArgoCD/Create new ArogCD App.md",
-    "Kubernetes/Rancher/Rancher Installation.md",
-    "Kubernetes/namespaces/Terminating namespace.md",
-    "Linux/SWAP.md"
+    "Vagrant/Install Vagrant.md"
   ]
 }
