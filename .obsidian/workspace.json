@@ -11,11 +11,98 @@
             "id": "8d3bb3587319ba37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Server Applications/ELK Stack/Filebeat/Install Filebeat on Ubuntu 22.04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff3549d44268ced2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Networking/Zerotier/Reset Zerotier member id.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6c036276e900754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Networking/sftp/SFTP with LDAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef8aa08c122ea6b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64bb956d1d0b89ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server Applications/AWX/Install AWX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0f3bca12ef79121",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23091ad0caa2572f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Networking/RedHat/RedHat set Static IP Adress.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1c8eff1870b746a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -148,6 +235,12 @@
   },
   "active": "a1ea0d67ef66d25f",
   "lastOpenFiles": [
+    "Server Applications/AWX/Install AWX.md",
+    "Server Applications/AWX",
+    "Pasted image 20230506081020.png",
+    "Linux/Networking/RedHat/RedHat set Static IP Adress.md",
+    "Linux/Networking/RedHat",
+    "Kubernetes/kubectl/Install Kubectl.md",
     "Untitled 2.canvas",
     "2023-05-11.md",
     "Untitled 1.canvas",
@@ -162,7 +255,6 @@
     "Pasted image 20230503205830.png",
     "Pasted image 20230503205759.png",
     "Pasted image 20230503205626.png",
-    "Pasted image 20230503205436.png",
     "Linux/Networking/Domain Controller/Ubuntu Join Active Directory Domain.md",
     "Server Applications/ELK Stack/Filebeat/Install Filebeat on Ubuntu 22.04.md",
     "Linux/Networking/Zerotier/Reset Zerotier member id.md",
@@ -185,16 +277,12 @@
     "Server Applications/ELK Stack/Logstash",
     "Server Applications/ELK Stack/ELK Stack.md",
     "Server Applications/ELK Stack",
-    "Server Applications",
-    "Server Applications/ELK Stack/Elasticsearch",
     "Kubernetes/Kubernetes.md",
     "Vagrant/Vagrantfile.md",
     "Vagrant/Install Vagrant.md",
     "Kubernetes/Helm/Install Helm.md",
     "Kubernetes/Kubernetes Installation/K3S/Install K3S.md",
     "Kubernetes/Secrets/Get a secret using kubectl.md",
-    "Kubernetes/ArgoCD/Install ArgoCD.md",
-    "Kubernetes/ArgoCD/Create new ArogCD App.md",
-    "Kubernetes/Rancher/Rancher Installation.md"
+    "Kubernetes/ArgoCD/Install ArgoCD.md"
   ]
 }

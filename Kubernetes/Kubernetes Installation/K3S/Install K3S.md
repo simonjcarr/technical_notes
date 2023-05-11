@@ -6,6 +6,45 @@ If installing on a raspberry pi run the following command before installing K3S
 sudo apt install linux-modules-extra-raspi && reboot
 ```
 
+## LXC Container
+If installing inside an LXC Container, there is some extra config required https://kevingoos.medium.com/kubernetes-inside-proxmox-lxc-cce5c9927942 
+
+Make the container unprivileged
+Make sure nesting is enabled
+Change the container config file (/etc/pve/lxc/$ID.conf) by adding the following lines
+```bash
+lxc.apparmor.profile: unconfined  
+lxc.cgroup2.devices.allow: a  
+lxc.cap.drop:  
+lxc.mount.auto: "proc:rw sys:rw"
+```
+Change some config inside the container
+For the last step we have to create some missing files inside of the container, because in the Proxmox Ubuntu LXC template they are missing.
+
+**Create /etc/rc.local**
+
+```
+#!/bin/sh -e  
+# Kubeadm 1.15 needs /dev/kmsg to be there, but it’s not in lxc, but we can just use /dev/console instead  
+# see: [https://github.com/kubernetes-sigs/kind/issues/662](https://github.com/kubernetes-sigs/kind/issues/662)
+
+if [ ! -e /dev/kmsg ]; then  
+ln -s /dev/console /dev/kmsg  
+fi
+
+# [https://medium.com/@kvaps/run-kubernetes-in-lxc-container-f04aa94b6c9c](https://medium.com/@kvaps/run-kubernetes-in-lxc-container-f04aa94b6c9c)  
+
+mount --make-rshared /
+```
+
+After creating this file we setup the permissions and reboot.
+
+```
+chmod +x /etc/rc.local  
+/etc/rc.local
+```
+
+
 ## Turn off swap
 K3S recommends that you turn off swap. 
 Follow the instructions here [[SWAP#Permanently disable swap]]
